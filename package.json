@@ -1,0 +1,32 @@
+{
+  "name": "mcp-server-whois",
+  "version": "1.0.0",
+  "description": "Model Context Protocol (MCP) server for authoritative raw WHOIS lookups, domain age calculation, and registrar detection.",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "mcp-server-whois": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "whois",
+    "whois-lookup",
+    "domain-age",
+    "verisign-whois"
+  ],
+  "author": "Datu",
+  "license": "MIT",
+  "files": [
+    "index.js",
+    "README.md",
+    "LICENSE",
+    "smithery.yaml"
+  ],
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.4"
+  }
+}
